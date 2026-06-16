@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="sdg12-responsible-cunsumption-production" size="5.000000 7.002188" />
+    <ImageTarget name="sdg15-life-and-land" size="5.000000 6.956522" />
+  </Tracking>
+</QCARConfig>
