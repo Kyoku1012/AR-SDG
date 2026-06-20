@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "quiz": "A forest with many different plant and animal species is usually more resilient to environmental changes.",
+      "answer": true
+    },
+    {
+      "quiz": "Introducing invasive species always benefits local ecosystems.",
+      "answer": false
+    },
+    {
+      "quiz": "Protecting wildlife habitats is one of the targets of SDG 15.",
+      "answer": true
+    },
+    {
+      "quiz": "Land degradation has no impact on human food production.",
+      "answer": false
+    },
+    {
+      "quiz": "Reducing illegal wildlife trade helps conserve biodiversity.",
+      "answer": true
+    }
+  ]
+}
