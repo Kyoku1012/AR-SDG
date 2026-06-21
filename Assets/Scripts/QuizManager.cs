@@ -115,7 +115,7 @@ public void BackToExplore()
             correctCount++;
 
             quizText.text = "You are Correct! " + (currentIndex + 1) + "/" + quizData.questions.Count 
-            +"\n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
+            +"\n \n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
 
             if (correctCount % 2 == 0)
                 {
@@ -125,7 +125,7 @@ public void BackToExplore()
         else
         {
             quizText.text = "Wrong Answer! " + (currentIndex + 1) + "/" + quizData.questions.Count
-            +"\n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
+            +"\n \n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
         }
 
         trueButton.gameObject.SetActive(false);

@@ -97,6 +97,7 @@
 
 using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class TreeSpawnManager : MonoBehaviour
 {
@@ -124,7 +125,9 @@ public class TreeSpawnManager : MonoBehaviour
 
         newTree.transform.localPosition = offset;
         newTree.transform.localRotation = Quaternion.identity;
-        newTree.transform.localScale = Vector3.one * 0.3f;
+
+        //newTree.transform.localScale = Vector3.one * 0.3f;
+        StartCoroutine(GrowTree(newTree.transform));
 
         plantedPositions.Add(offset);
     }
@@ -156,5 +159,33 @@ public class TreeSpawnManager : MonoBehaviour
         }
 
         return Vector3.negativeInfinity;
+    }
+
+
+    IEnumerator GrowTree(Transform tree)
+    {   
+        float duration = 0.6f;
+        float timer = 0f;
+
+        Vector3 finalScale = Vector3.one * 0.3f;
+        Vector3 finalPos = tree.localPosition;
+        Vector3 startPos = finalPos + new Vector3(0, -0.25f, 0);
+
+        tree.localScale = Vector3.zero;
+        tree.localPosition = startPos;
+
+        while (timer < duration)
+        {
+            timer += Time.deltaTime;
+            float t = timer / duration;
+
+            tree.localScale = Vector3.Lerp(Vector3.zero, finalScale, t);
+            tree.localPosition = Vector3.Lerp(startPos, finalPos, t);
+
+            yield return null;
+        }
+
+        tree.localScale = finalScale;
+        tree.localPosition = finalPos;
     }
 }
