@@ -114,18 +114,17 @@ public void BackToExplore()
         {
             correctCount++;
 
-            quizText.text = "You are Correct! " + (currentIndex + 1) + "/" + quizData.questions.Count 
-            +"\n \n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
+            quizText.text = "<color=#4CAF50>You are Correct! </color> " + (currentIndex + 1) + "/" + quizData.questions.Count 
+            +"\n \n " + quizData.questions[currentIndex].quiz + ": " + correctAnswer;
 
-            if (correctCount % 2 == 0)
-                {
+        
                     treeSpawnManager.PlantOneTree();
-                }
+                
             }
         else
         {
-            quizText.text = "Wrong Answer! " + (currentIndex + 1) + "/" + quizData.questions.Count
-            +"\n \n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
+            quizText.text = "<color=#F44336>Wrong Answer! </color>" + (currentIndex + 1) + "/" + quizData.questions.Count
+            +"\n \n " + quizData.questions[currentIndex].quiz + ": " + correctAnswer;
         }
 
         trueButton.gameObject.SetActive(false);
