@@ -101,7 +101,8 @@ using System.Collections;
 
 public class TreeSpawnManager : MonoBehaviour
 {
-    public GameObject treePrefab;
+    //public GameObject treePrefab;
+    public GameObject[] treePrefabs;
     public Transform imageTargetTransform;
 
     public float minDistance = 0.75f;
@@ -121,9 +122,15 @@ public class TreeSpawnManager : MonoBehaviour
             return;
         }
 
-        GameObject newTree = Instantiate(treePrefab, imageTargetTransform);
+
+        int randomIndex = Random.Range(0, treePrefabs.Length);
+
+        GameObject selectedTree = treePrefabs[randomIndex];
+
+        GameObject newTree = Instantiate(selectedTree, imageTargetTransform);
 
         newTree.transform.localPosition = offset;
+
         newTree.transform.localRotation = Quaternion.identity;
 
         //newTree.transform.localScale = Vector3.one * 0.3f;
