@@ -19,6 +19,66 @@
     {
       "quiz": "Reducing illegal wildlife trade helps conserve biodiversity.",
       "answer": true
+    },
+    {
+      "quiz": "A forest with many different plant and animal species is usually more resilient to environmental changes.",
+      "answer": true
+    },
+    {
+      "quiz": "Introducing invasive species always benefits local ecosystems.",
+      "answer": false
+    },
+    {
+      "quiz": "Protecting wildlife habitats is one of the targets of SDG 15.",
+      "answer": true
+    },
+    {
+      "quiz": "Land degradation has no impact on human food production.",
+      "answer": false
+    },
+    {
+      "quiz": "Reducing illegal wildlife trade helps conserve biodiversity.",
+      "answer": true
+    },
+    {
+      "quiz": "Deforestation contributes to the increase of greenhouse gases in the atmosphere.",
+      "answer": true
+    },
+    {
+      "quiz": "Desertification is a process that only occurs naturally without human influence.",
+      "answer": false
+    },
+    {
+      "quiz": "Sustainable forest management ensures that forest resources are available for future generations.",
+      "answer": true
+    },
+    {
+      "quiz": "Mountain ecosystems are highly vulnerable to climate change and environmental degradation.",
+      "answer": true
+    },
+    {
+      "quiz": "Extinction of a single insect species cannot affect an entire ecosystem.",
+      "answer": false
+    },
+    {
+      "quiz": "SDG 15 aims to integrate ecosystem and biodiversity values into national and local planning.",
+      "answer": true
+    },
+    {
+      "quiz": "Protecting wetlands is not relevant to SDG 15 since it only focuses on dry land.",
+      "answer": false
+    },
+    {
+      "quiz": "Over-reliance on chemical pesticides can damage biodiversity in agricultural soils.",
+      "answer": true
+    },
+    {
+      "quiz": "Indigenous communities play a minimal role in the conservation of land ecosystems.",
+      "answer": false
+    },
+    {
+      "quiz": "The targets of SDG 15 only apply to developing countries, not developed nations.",
+      "answer": false
     }
   ]
 }

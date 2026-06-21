@@ -13,7 +13,7 @@ public class TreeSpawnManager : MonoBehaviour
     {
         treeCount++;
 
-        Vector3 offset = new Vector3(treeCount * 0.15f, 0, 0);
+        Vector3 offset = new Vector3(treeCount * 0.9f, 0, 0);
 
         GameObject newTree = Instantiate(
             treePrefab,
@@ -24,6 +24,6 @@ public class TreeSpawnManager : MonoBehaviour
 
         newTree.transform.localPosition = offset;
         newTree.transform.localRotation = Quaternion.identity;
-        newTree.transform.localScale = Vector3.one * 0.3f;
+        newTree.transform.localScale = Vector3.one * 0.5f;
     }
 }
