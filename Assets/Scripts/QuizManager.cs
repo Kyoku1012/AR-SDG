@@ -33,6 +33,9 @@ public class QuizManager : MonoBehaviour
     private QuizData quizData;
     private int currentIndex = 0;
 
+    public TreeSpawnManager treeSpawnManager;
+    private int correctCount = 0;
+
     public void ClickTrue()
 {
     CheckAnswer(true);
@@ -61,9 +64,9 @@ public void BackToExplore()
 
         nextButton.gameObject.SetActive(false);
 
-        trueButton.onClick.AddListener(() => CheckAnswer(true));
-        falseButton.onClick.AddListener(() => CheckAnswer(false));
-        nextButton.onClick.AddListener(NextQuestion);
+        // trueButton.onClick.AddListener(() => CheckAnswer(true));
+        // falseButton.onClick.AddListener(() => CheckAnswer(false));
+        // nextButton.onClick.AddListener(NextQuestion);
 
         ShowQuestion();
     }
@@ -109,9 +112,16 @@ public void BackToExplore()
 
         if (userAnswer == correctAnswer)
         {
+            correctCount++;
+
             quizText.text = "You are Correct! " + (currentIndex + 1) + "/" + quizData.questions.Count 
             +"\n " + quizData.questions[currentIndex].quiz + " is " + correctAnswer;
-        }
+
+            if (correctCount % 2 == 0)
+                {
+                    treeSpawnManager.PlantOneTree();
+                }
+            }
         else
         {
             quizText.text = "Wrong Answer! " + (currentIndex + 1) + "/" + quizData.questions.Count
