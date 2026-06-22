@@ -20,26 +20,7 @@
       "quiz": "Reducing illegal wildlife trade helps conserve biodiversity.",
       "answer": true
     },
-    {
-      "quiz": "A forest with many different plant and animal species is usually more resilient to environmental changes.",
-      "answer": true
-    },
-    {
-      "quiz": "Introducing invasive species always benefits local ecosystems.",
-      "answer": false
-    },
-    {
-      "quiz": "Protecting wildlife habitats is one of the targets of SDG 15.",
-      "answer": true
-    },
-    {
-      "quiz": "Land degradation has no impact on human food production.",
-      "answer": false
-    },
-    {
-      "quiz": "Reducing illegal wildlife trade helps conserve biodiversity.",
-      "answer": true
-    },
+  
     {
       "quiz": "Deforestation contributes to the increase of greenhouse gases in the atmosphere.",
       "answer": true
@@ -79,6 +60,127 @@
     {
       "quiz": "The targets of SDG 15 only apply to developing countries, not developed nations.",
       "answer": false
+    },
+
+    {
+      "quiz": "Forests cover approximately 30 percent of the Earth's land area.",
+      "answer": true
+    },
+    {
+      "quiz": "Human activity has altered more than 70 percent of the Earth's ice-free land surface.",
+      "answer": true
+    },
+    {
+      "quiz": "Planting a single tree species over a large area fulfills the biodiversity goals of SDG 15.",
+      "answer": false
+    },
+    {
+      "quiz": "More than 80 percent of all terrestrial species of animals, plants, and insects live in forests.",
+      "answer": true
+    },
+    {
+      "quiz": "Land degradation impacts the livelihoods of over one billion people globally.",
+      "answer": true
+    },
+    {
+      "quiz": "Arid and semi-arid lands are the only regions susceptible to soil erosion.",
+      "answer": false
+    },
+    {
+      "quiz": "Healthy ecosystems help reduce the risk of zoonotic diseases spreading from animals to humans.",
+      "answer": true
+    },
+    {
+      "quiz": "Genetic diversity within a species makes it harder for them to adapt to climate change.",
+      "answer": false
+    },
+    {
+      "quiz": "SDG 15 aims to completely ban the use of all forest products globally.",
+      "answer": false
+    },
+    {
+      "quiz": "Illegal logging only threatens biodiversity and has no impact on local economies.",
+      "answer": false
+    },
+    {
+      "quiz": "Biodiversity hotspots are areas that contain high levels of species found nowhere else.",
+      "answer": true
+    },
+    {
+      "quiz": "Soil is a renewable resource that regenerates within a few weeks after being eroded.",
+      "answer": false
+    },
+    {
+      "quiz": "Urban expansion can cause habitat fragmentation, which isolates wildlife populations.",
+      "answer": true
+    },
+    {
+      "quiz": "The Red List of Threatened Species is maintained by the International Union for Conservation of Nature (IUCN).",
+      "answer": true
+    },
+    {
+      "quiz": "Overgrazing by livestock can accelerate the process of desertification.",
+      "answer": true
+    },
+    {
+      "quiz": "Ecosystem services, such as water purification by forests, have no measurable economic value.",
+      "answer": false
+    },
+    {
+      "quiz": "SDG 15 promotes fair and equitable sharing of benefits arising from the utilization of genetic resources.",
+      "answer": true
+    },
+    {
+      "quiz": "Wildfires are always harmful and never play a natural role in any ecosystem cycle.",
+      "answer": false
+    },
+    {
+      "quiz": "Ecotourism can provide financial incentives for local communities to protect wildlife.",
+      "answer": true
+    },
+    {
+      "quiz": "Microplastics have only been found in oceans and have not yet contaminated terrestrial soils.",
+      "answer": false
+    },
+    {
+      "quiz": "Protected areas, like national parks, are sufficient on their own to stop global biodiversity loss.",
+      "answer": false
+    },
+    {
+      "quiz": "The extinction rate of species today is estimated to be dozens to hundreds of times higher than the natural background rate.",
+      "answer": true
+    },
+    {
+      "quiz": "Pollinators like bees and butterflies are essential for the reproduction of many wild plants and crops.",
+      "answer": true
+    },
+    {
+      "quiz": "Halting biodiversity loss is an isolated goal that does not affect poverty reduction efforts.",
+      "answer": false
+    },
+    {
+      "quiz": "Wildlife corridors help animals travel safely between fragmented habitats.",
+      "answer": true
+    },
+    {
+      "quiz": "The introduction of domestic pets into wild areas never causes issues for local biodiversity.",
+      "answer": false
+    },
+    {
+      "quiz": "Sustainable agriculture practices can actually improve soil health and reverse land degradation.",
+      "answer": true
+    },
+    {
+      "quiz": "Deep-rooting plants can help stabilize soil on slopes and prevent landslides.",
+      "answer": true
+    },
+    {
+      "quiz": "Mangrove forests are explicitly excluded from SDG 15 because they grow in saltwater.",
+      "answer": false
+    },
+    {
+      "quiz": "Achieving Land Degradation Neutrality (LDN) means the amount of healthy land remains stable or increases.",
+      "answer": true
     }
   ]
 }

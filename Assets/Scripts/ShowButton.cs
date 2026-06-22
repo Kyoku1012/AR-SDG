@@ -6,6 +6,7 @@ using Vuforia;
 public class ShowButton : MonoBehaviour
 {
     public GameObject button;
+    public GameObject quizPanel;
     ObserverBehaviour observer;
 
     void Start()
@@ -15,6 +16,7 @@ public class ShowButton : MonoBehaviour
         observer.OnTargetStatusChanged += OnStatusChanged;
 
         button.SetActive(false);
+        quizPanel.SetActive(false);
     }
 
     void OnStatusChanged(ObserverBehaviour behaviour,
@@ -24,7 +26,15 @@ public class ShowButton : MonoBehaviour
             status.Status == Status.TRACKED ||
             status.Status == Status.EXTENDED_TRACKED;
 
-        button.SetActive(detected);
+        // Quiz panel should only be shown when the target is detected and the quiz panel is not already active
+        button.SetActive(detected && !quizPanel.activeSelf);
+        // if (quizPanel.activeSelf)
+        // {
+        //     button.SetActive(false);
+        //     return;
+        // }
+
+        // button.SetActive(detected);
     }
 
     void OnDestroy()

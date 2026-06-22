@@ -1,0 +1,218 @@
+[
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Buying wood products with a 'sustainability certification' label is a good way to help stop illegal logging.",
+        "answer": true
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Fixing an ecosystem means we must try to make it look exactly like it did hundreds of years ago.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Governments should include the value of nature (like clean water and fresh air) in their national financial planning.",
+        "answer": true
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Spraying strong chemicals in city gardens is a good way to help local bees and insects.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "'Rewilding' means bringing animals from other countries to change a local forest.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Growing crops and trees together on the same land can help reduce the need to cut down more forests.",
+        "answer": true
+    },
+    {
+        "level": "Easy",
+        "category": "To Do & Not To Do",
+        "question": "Wild animals do not need 'safe paths' (wildlife corridors) to move between forests if they already have big parks to live in.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "Statistical/Data Knowledge",
+        "question": "Most of the world’s rare plants and animals are found in cold, snowy areas instead of the tropics.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "Statistical/Data Knowledge",
+        "question": "Soil health is important for the food security of over 3 billion people.",
+        "answer": true
+    },
+    {
+        "level": "Easy",
+        "category": "Statistical/Data Knowledge",
+        "question": "In protected nature areas, humans are strictly forbidden from doing any work or living there at all.",
+        "answer": false
+    },
+    {
+        "level": "Easy",
+        "category": "Statistical/Data Knowledge",
+        "question": "Pollution from certain man-made fertilizers is a major reason why some forests are dying.",
+        "answer": true
+    },
+    {
+        "level": "Easy",
+        "category": "Statistical/Data Knowledge",
+        "question": "When we measure the health of the land, we only look at what happens in the ocean.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Paying local people to take care of the forest is a good way to encourage conservation.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Planting only one type of tree is the best way to rebuild a healthy, complex forest.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Companies should follow a clear plan to avoid, minimize, and fix the harm they do to nature.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Reducing meat consumption is not related to stopping forest loss.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Catching poachers is the only thing we need to do to stop animals from going extinct.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "Letting local indigenous groups manage their own land often leads to better forest protection.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "To Do & Not To Do",
+        "question": "When replanting a forest, it is always best to pick the fastest-growing non-native trees.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "Statistical/Data Knowledge",
+        "question": "Global agreements now encourage countries to stop paying for activities that hurt nature.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "Statistical/Data Knowledge",
+        "question": "Most forest loss in the Amazon is caused by planting soybeans.",
+        "answer": false
+    },
+    {
+        "level": "Medium",
+        "category": "Statistical/Data Knowledge",
+        "question": "Old-growth (original) forests absorb more carbon than young, newly planted tree farms.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "Statistical/Data Knowledge",
+        "question": "Scientists use the 'Red List' to track which animals are most at risk of disappearing.",
+        "answer": true
+    },
+    {
+        "level": "Medium",
+        "category": "Statistical/Data Knowledge",
+        "question": "Right now, over half of the Earth's land is officially protected by nature laws.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "A landscape that allows animals to easily move between different patches of forest is called 'connected'.",
+        "answer": true
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "Every country in the world successfully reached all of its 2020 nature-protection goals.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "It is a good investment strategy to stop funding companies that do not care about protecting forests.",
+        "answer": true
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "To stop deserts from growing, we should only focus on planting trees, even in naturally dry grasslands.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "Protecting 'genetic diversity' is only about saving famous wild animals, not about saving different types of food crops.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "Sustainable forest management means we are never allowed to cut down a single tree.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "To Do & Not To Do",
+        "question": "To stop illegal deforestation, companies must be open and honest about where their products come from.",
+        "answer": true
+    },
+    {
+        "level": "Hard",
+        "category": "Statistical/Data Knowledge",
+        "question": "The value of the services nature provides (like pollination and water filtering) is worth more than the total money made by all countries combined.",
+        "answer": true
+    },
+    {
+        "level": "Hard",
+        "category": "Statistical/Data Knowledge",
+        "question": "Large, undisturbed forests have decreased by more than 7% since the early 2000s.",
+        "answer": true
+    },
+    {
+        "level": "Hard",
+        "category": "Statistical/Data Knowledge",
+        "question": "Animals are going extinct today at the same slow, natural speed as they did millions of years ago.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "Statistical/Data Knowledge",
+        "question": "According to the UN, the world is currently on track to meet all its SDG 15 goals by 2030.",
+        "answer": false
+    },
+    {
+        "level": "Hard",
+        "category": "Statistical/Data Knowledge",
+        "question": "Losing different types of plants and animals means we might miss out on discovering new life-saving medicines.",
+        "answer": true
+    }
+]

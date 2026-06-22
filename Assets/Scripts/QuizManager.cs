@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+using System.Collections;
+using UnityEngine.Networking;
+
+
 [System.Serializable]
 public class QuizQuestion
 {
@@ -58,34 +62,64 @@ public void BackToExplore()
     exploreButton.SetActive(true);
 }
 
+    // void Start()
+    // {
+    //     LoadQuizFromJson();
+
+    //     nextButton.gameObject.SetActive(false);
+
+    //     // trueButton.onClick.AddListener(() => CheckAnswer(true));
+    //     // falseButton.onClick.AddListener(() => CheckAnswer(false));
+    //     // nextButton.onClick.AddListener(NextQuestion);
+
+    //     ShowQuestion();
+    // }
+
+
     void Start()
     {
-        LoadQuizFromJson();
-
-        nextButton.gameObject.SetActive(false);
-
-        // trueButton.onClick.AddListener(() => CheckAnswer(true));
-        // falseButton.onClick.AddListener(() => CheckAnswer(false));
-        // nextButton.onClick.AddListener(NextQuestion);
-
-        ShowQuestion();
+    nextButton.gameObject.SetActive(false);
+    StartCoroutine(LoadQuizFromJson());
     }
 
-    void LoadQuizFromJson()
+    // void LoadQuizFromJson()
+    // {
+    //     string path = Path.Combine(Application.streamingAssetsPath, "quiz.json");
+
+    //     if (File.Exists(path))
+    //     {
+    //         string json = File.ReadAllText(path);
+    //         quizData = JsonUtility.FromJson<QuizData>(json);
+    //     }
+    //     else
+    //     {
+    //         Debug.LogError("quiz.json not found!");
+    //     }
+    // }
+    
+    IEnumerator LoadQuizFromJson()
+{
+    string path = Path.Combine(Application.streamingAssetsPath, "quiz.json");
+
+    UnityWebRequest request = UnityWebRequest.Get(path);
+    yield return request.SendWebRequest();
+
+    if (request.result != UnityWebRequest.Result.Success)
     {
-        string path = Path.Combine(Application.streamingAssetsPath, "quiz.json");
-
-        if (File.Exists(path))
-        {
-            string json = File.ReadAllText(path);
-            quizData = JsonUtility.FromJson<QuizData>(json);
-        }
-        else
-        {
-            Debug.LogError("quiz.json not found!");
-        }
+        Debug.LogError("Failed to load quiz.json: " + request.error);
+        yield break;
     }
 
+    quizData = JsonUtility.FromJson<QuizData>(request.downloadHandler.text);
+
+    if (quizData == null || quizData.questions == null)
+    {
+        Debug.LogError("Quiz data is empty or JSON format is wrong.");
+        yield break;
+    }
+
+    ShowQuestion();
+}
     void ShowQuestion()
     {
         if (currentIndex < quizData.questions.Count)
